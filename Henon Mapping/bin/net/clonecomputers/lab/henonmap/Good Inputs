@@ -1,0 +1,26 @@
+#Good Inputs:
+#a	b
+.1	.8
+2.5	-.8
+1.3	.3
+1.3	.8
+1.4	-.4
+-1.4	-.4
+-.1	-.4
+.1	1.4	demonstrates program function
+2.0	2.0	jellyfish!
+.1	1.0	JELLYFISH SPIRALS
+.1	1.05	JELLYFISH VORTEX SHEDDING!
+.01	1.01	jellyfish in slomo (explain why jellyfish works)
+.1	1.005	demonstrates why jellyfish vortex
+1.0	1.0
+.1	-1.0	CRAZY SPIRAL STUFF!!!!
+.1	-1.05	MOAR CRAZY SPIRAL
+.1	-1.1
+-.1	-1.0	new crazy spiral
+1.0	-1.0
+-.05	-1
+.05	-.95
+.05	-1
+.05	-1.05
+.01	-1	spinning square (according to felix)
