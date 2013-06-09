@@ -4,6 +4,7 @@ import java.awt.*;
 
 import javax.swing.*;
 
+@SuppressWarnings("serial")
 public class HenonMap extends JPanel {
 	
 	private Color[][] colors;

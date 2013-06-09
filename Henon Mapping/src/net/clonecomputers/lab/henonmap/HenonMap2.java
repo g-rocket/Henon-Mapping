@@ -206,7 +206,11 @@ public class HenonMap2 extends JPanel implements Runnable {
 			String newFps = JOptionPane.showInputDialog(window,
 					"Please input new fps");
 			if(newFps == null) break;
-			fps = Integer.parseInt(newFps);
+			try{
+				fps = Integer.parseInt(newFps);
+			}catch(NumberFormatException nfe){
+				System.out.println(newFps + " is not acceptable.\nFPS must be an int.");
+			}
 			break;
 		case KeyEvent.VK_A:
 			String newDA = JOptionPane.showInputDialog(window,
